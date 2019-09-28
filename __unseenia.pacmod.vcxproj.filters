@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="./">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="./\seams">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bonus.inl">
+      <Filter>./</Filter>
+    </None>
+    <None Include="character.inl">
+      <Filter>./</Filter>
+    </None>
+    <None Include="dot.inl">
+      <Filter>./</Filter>
+    </None>
+    <None Include="game.inl">
+      <Filter>./</Filter>
+    </None>
+    <None Include="gamestate.inl">
+      <Filter>./</Filter>
+    </None>
+    <None Include="ghost.inl">
+      <Filter>./</Filter>
+    </None>
+    <None Include="main.inl">
+      <Filter>./</Filter>
+    </None>
+    <None Include="maze.inl">
+      <Filter>./</Filter>
+    </None>
+    <None Include="pac.inl">
+      <Filter>./</Filter>
+    </None>
+    <None Include="readme.md">
+      <Filter>./</Filter>
+    </None>
+    <None Include="animator.inl">
+      <Filter>./</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="character.h">
+      <Filter>./</Filter>
+    </ClInclude>
+    <ClInclude Include="dot.h">
+      <Filter>./</Filter>
+    </ClInclude>
+    <ClInclude Include="game.h">
+      <Filter>./</Filter>
+    </ClInclude>
+    <ClInclude Include="gamestate.h">
+      <Filter>./</Filter>
+    </ClInclude>
+    <ClInclude Include="ghost.h">
+      <Filter>./</Filter>
+    </ClInclude>
+    <ClInclude Include="maze.h">
+      <Filter>./</Filter>
+    </ClInclude>
+    <ClInclude Include="pac.h">
+      <Filter>./</Filter>
+    </ClInclude>
+    <ClInclude Include="animator.h">
+      <Filter>./</Filter>
+    </ClInclude>
+    <ClInclude Include="bonus.h">
+      <Filter>./</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="CMakeLists.txt">
+      <Filter>./</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
